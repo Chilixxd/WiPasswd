@@ -88,7 +88,10 @@ if '-pw' in sys.argv:
 
 if '--wifipasswd' in sys.argv:
     SSID = input("Enter the SSID: ")
-    os.system('netsh wlan show profile ' + SSID + ' key=clear')
-
+    os.system('netsh wlan show profile ' + SSID + ' key=clear') 
+   
+   if '----s3cr3t' in sys.argv:
+while True:
+    ctypes.windll.user32.MessageBoxW(None, u"yay you found me! now get rid of me!:(", u":(", 0)
 #Ending of "Flags"
 #Ending
