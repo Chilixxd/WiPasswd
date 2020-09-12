@@ -3,7 +3,6 @@
 #Made by: Chili
 #Date: 2020-08-03
 #Made in Python 3.8.1 64-bit
-#Copyright Chili
 #Start
 
 import sys, os
